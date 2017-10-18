@@ -1,8 +1,6 @@
 #ifndef LIST_H
 #define LIST_H
 
-#include "util.h"
-
 // Data to be stored in the list
 typedef int data_t;
 
