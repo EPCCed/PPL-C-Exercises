@@ -1,4 +1,6 @@
 #include "list.hpp"
+#include <iostream>
+#include <cassert>
 
 list::node::node() : next(nullptr), prev(nullptr) {
 }
