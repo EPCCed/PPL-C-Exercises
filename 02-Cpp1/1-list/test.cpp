@@ -48,6 +48,7 @@ int main(int argc, char** argv) {
   int last = 0;
   for(auto nd = sorted.front(); nd; nd = sorted.node_next(nd)) {
     assert(last <= nd->get());
+    last = nd->get();
   }
   std::cout << "Were correctly ordered" << std::endl;
 }
